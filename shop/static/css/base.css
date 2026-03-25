@@ -327,3 +327,13 @@ form div.field {
     color:#666;
     border-radius:4px;
 }
+@media (max-width: 768px) {
+    .main-layout {
+        flex-direction: column; /* Боковая панель станет сверху, товары снизу */
+    }
+
+    .categories {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
